@@ -113,3 +113,6 @@ Owner requested a new HappyBirthday repository following their IT notes. Read E:
 
 ### Corrected repository name and YouTube integration
 User explicitly overrode lowercase naming: repository must be DHTML_HappyBirthday. Compilation URL is https://youtu.be/WIzqhGwHgrk, now embedded in final-present.html without autoplay. Proof interaction and portrait gate send YouTube pause commands instead of calling a nonexistent native video element. Packaging excludes the original oversized local compilation, which is still gitignored and preserved. No YouTube uploads performed by the agent. Remote playback availability needs verification over HTTP/live Pages.
+
+### Landscape phone second-scene fix
+At landscape sizes up to 1100px wide and 600px high, countdown scene two uses a full-viewport grid: uncropped object-fit contain video in its own row and gift button in a separate row inside the scene. White scene background matches the video. Desktop layout unchanged.
