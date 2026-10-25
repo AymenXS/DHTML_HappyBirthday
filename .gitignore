@@ -1,0 +1,10 @@
+/archive/
+/_site/
+/Proof.jpg
+/node_modules/
+*.log
+.DS_Store
+Thumbs.db
+
+# Original compilation stays local; online playback will use YouTube.
+/resources/videos/stumble-guys-compilation.mp4

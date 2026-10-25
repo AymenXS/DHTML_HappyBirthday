@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="resources/css/countdown.css" />
+    <script src="resources/js/countdown.js" defer></script>
+  <link rel="stylesheet" href="resources/css/orientation.css" /><script src="resources/js/orientation.js" defer></script><link rel="stylesheet" href="resources/css/buttons.css" /></head>
+  <body>
+    <div class="first-half">
+      <div id="dim-bg"></div>
+      <video autoplay muted loop playsinline id="first-half-bg">
+        <source src="resources/videos/countdown-bg-2.mp4" type="video/mp4" />
+        Your browser does not support HTML5 video.
+      </video>
+      <h1>Birthday Countdown</h1>
+      <div id="countdown" class="countdown">
+        <div class="time">
+          <h2 id="days"></h2>
+          <small>Days</small>
+        </div>
+
+        <div class="time">
+          <h2 id="hours"></h2>
+          <small>Hours</small>
+        </div>
+
+        <div class="time">
+          <h2 id="minutes"></h2>
+          <small>Minutes</small>
+        </div>
+
+        <div class="time">
+          <h2 id="seconds"></h2>
+          <small>Seconds</small>
+        </div>
+      </div>
+      <p class="elapsed-label">How long ago was it?</p>
+      <p id="elapsed" class="elapsed"></p>
+      <a class="scroll-cue" href="#second-scene">Scroll for your surprise ↓</a>
+    </div>
+    <div class="second-half" id="second-scene">
+      <video autoplay muted loop playsinline id="myVideo">
+        <source src="resources/videos/countdown-bg-1.mp4" type="video/mp4" />
+        Your browser does not support HTML5 video.
+      </video>
+      <a id="clickMe" href="fireworks.html">When the timer reaches 0, CLICK ME!</a>
+    </div>
+  <aside class="rotate-notice" role="status"><span aria-hidden="true">↻</span><strong>Turn your phone sideways</strong><p>This birthday surprise is best in landscape.</p></aside></body>
+</html>

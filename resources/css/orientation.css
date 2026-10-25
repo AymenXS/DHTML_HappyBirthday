@@ -1,0 +1,2 @@
+.rotate-notice { display: none; }
+@media (orientation: portrait) and (max-width: 1024px) { html { overflow: hidden; } body > :not(.rotate-notice) { display: none !important; } .rotate-notice { position: fixed; inset: 0; z-index: 9999; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px; padding: 32px; background: #030713; color: #eaf2ff; text-align: center; font: 1.1rem/1.6 system-ui, sans-serif; } .rotate-notice span { font-size: 4rem; } }

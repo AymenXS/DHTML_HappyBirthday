@@ -1,0 +1,18 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { min-height: 100svh; padding: 32px 20px; background: #02040b; color: white; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 28px; font-family: system-ui, sans-serif; }
+video { display: block; width: min(100%, 1100px); max-height: 76svh; background: black; }
+#clickMe { display: inline-block; padding: 16px 24px; border: 1px solid #a5cfff80; border-radius: 999px; background: #10213e; color: white; text-align: center; text-decoration: none; font: inherit; cursor: pointer; }
+#clickMe:hover { background: #203c65; }
+#clickMe:focus-visible { outline: 3px solid white; outline-offset: 5px; }
+
+.question { text-align: center; max-width: 720px; }
+.question h1 { font-size: clamp(1.2rem, 3vw, 1.8rem); font-weight: 500; }
+.answers { display: flex; justify-content: center; gap: 16px; margin-top: 18px; }
+.answers button { min-width: 100px; border: 1px solid #a5cfff80; border-radius: 999px; background: #10213e; color: white; padding: 12px 24px; font: inherit; cursor: pointer; }
+.answers button:hover { background: #203c65; }
+#answerFeedback { min-height: 1.5em; margin-top: 12px; color: #f6d483; }
+dialog { margin: auto; max-width: 90vw; max-height: 90svh; border: 1px solid #7593be; border-radius: 16px; padding: 16px; background: #080f20; color: white; text-align: center; }
+dialog::backdrop { background: #000d; }
+dialog img { display: block; max-width: 80vw; max-height: 72svh; object-fit: contain; margin-bottom: 12px; }
+
+#compilationPlayer { display: block; width: min(100%, 1100px); aspect-ratio: 16 / 9; max-height: 76svh; border: 0; background: black; }

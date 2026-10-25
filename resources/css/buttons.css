@@ -1,0 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+#clickMe, .answers button, #closeProof { display: inline-block; min-width: 100px; max-width: 100%; border: 1px solid #a5cfff80; border-radius: 999px; padding: 16px 26px; background: #10213ee8; color: white; font: 1rem/1.4 Courgette, cursive; text-decoration: none; text-align: center; cursor: pointer; box-shadow: 0 0 24px #0668d825; transition: background .2s; }
+#clickMe:hover, .answers button:hover, #closeProof:hover { background: #203c65; }
+#clickMe:focus-visible, .answers button:focus-visible, #closeProof:focus-visible { outline: 3px solid white; outline-offset: 5px; }
+#closeProof { margin-top: 12px; }
