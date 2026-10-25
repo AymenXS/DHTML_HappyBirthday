@@ -116,3 +116,6 @@ User explicitly overrode lowercase naming: repository must be DHTML_HappyBirthda
 
 ### Landscape phone second-scene fix
 At landscape sizes up to 1100px wide and 600px high, countdown scene two uses a full-viewport grid: uncropped object-fit contain video in its own row and gift button in a separate row inside the scene. White scene background matches the video. Desktop layout unchanged.
+
+### Desktop second-scene correction
+Previous landscape-phone patch left desktop using cropped cover video. Added desktop media rules for contained video plus a separate action row inside a viewport-height white scene; phone-specific layout retained. Stylesheet version scene-fit-3.
