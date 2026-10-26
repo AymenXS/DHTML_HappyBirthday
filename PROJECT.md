@@ -119,3 +119,6 @@ At landscape sizes up to 1100px wide and 600px high, countdown scene two uses a 
 
 ### Desktop second-scene correction
 Previous landscape-phone patch left desktop using cropped cover video. Added desktop media rules for contained video plus a separate action row inside a viewport-height white scene; phone-specific layout retained. Stylesheet version scene-fit-3.
+
+### Actions runtime maintenance — 2026-10-26
+Verified official latest releases: setup-node v7.1.0, configure-pages v6.0.0, deploy-pages v5.0.1 use node24; upload-pages-artifact v5.0.0 uses upload-artifact v7. Updated workflow major versions accordingly. Validation runtime remains Node 22, independent of action runtime.
