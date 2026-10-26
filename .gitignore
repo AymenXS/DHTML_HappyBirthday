@@ -1,4 +1,10 @@
-/archive/
+# Preserve selected originals; ignore old Git histories and duplicate media.
+/archive/*
+!/archive/artwork/
+!/archive/design-previews/
+!/archive/unused-videos/
+/archive/unused-videos/*
+!/archive/unused-videos/Imane Step A Day.mp4
 /_site/
 /Proof.jpg
 /node_modules/

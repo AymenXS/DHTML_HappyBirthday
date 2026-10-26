@@ -122,3 +122,6 @@ Previous landscape-phone patch left desktop using cropped cover video. Added des
 
 ### Actions runtime maintenance — 2026-10-26
 Verified official latest releases: setup-node v7.1.0, configure-pages v6.0.0, deploy-pages v5.0.1 use node24; upload-pages-artifact v5.0.0 uses upload-artifact v7. Updated workflow major versions accordingly. Validation runtime remains Node 22, independent of action runtime.
+
+### Original assets preserved — 2026-10-26
+Owner requested preserving all archive/artwork/, archive/design-previews/, and archive/unused-videos/Imane Step A Day.mp4 in GitHub. Ignore rules now allow exactly those archive areas. Old Git histories, duplicate Tferej video, and Plan.txt remain ignored. Pages packaging still copies only root HTML and resources, so preserved originals are in the repository but not deployed as website files. _site is a generated packaging directory created locally by validation and independently in GitHub Actions; it is never committed or pushed.
